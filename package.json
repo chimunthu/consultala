@@ -1,0 +1,33 @@
+{
+    "name": "com.consultala.app",
+    "displayName": "consultala",
+    "version": "1.0.0",
+    "description": "A sample Apache Cordova application that responds to the deviceready event.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "watch 'cordova run browser' www"
+    },
+    "keywords": [
+        "ecosystem:cordova"
+    ],
+    "author": "Apache Cordova Team",
+    "license": "Apache-2.0",
+    "devDependencies": {
+        "cordova-android": "^9.0.0",
+        "cordova-browser": "^6.0.0",
+        "cordova-electron": "^1.1.1",
+        "cordova-plugin-whitelist": "^1.3.4",
+        "watch": "^1.0.2"
+    },
+    "cordova": {
+        "plugins": {
+            "cordova-plugin-whitelist": {}
+        },
+        "platforms": [
+            "browser",
+            "electron",
+            "android"
+        ]
+    }
+}
